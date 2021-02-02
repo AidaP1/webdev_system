@@ -14,6 +14,9 @@
                 <li>
                     <a href="#fonts">Fonts</a>
                 </li>
+                <li>
+                    <a href="#elements">Element styles</a>
+                </li>
             </nav>
         </header>
         <main>
