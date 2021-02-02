@@ -42,6 +42,11 @@ header nav li {
     list-style-type: none;
     line-height: 1;   
     margin-left: 20px;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 
@@ -67,10 +72,38 @@ section {
     margin: 4px 10px;
 }
 
-.box-text h1 {
-    flex: 1;
+
+.color-group {
+    display: flex;
 }
 
 .box-text p {
     margin-left: 20px;
+}
+
+.title-box {
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#colors .box-item {
+    height: 250px;
+    width: 180px;
+    margin: 20px 8px;
+    display: flex;
+    align-items: center;
+} 
+
+.color1 {
+    background-color: hsl(210 50% 70%);
+}
+
+.color2 {
+    background-color: hsl(120 50% 75%);
+}
+
+.color3 {
+    background-color: hsl(180 50% 70%);
 }
