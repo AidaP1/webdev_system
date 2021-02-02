@@ -26,6 +26,25 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+    font-family: 'Changa';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/changa/v11/2-cm9JNi2YuVOUckZpy-eOz1pQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Changa';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/changa/v11/2-cm9JNi2YuVOUckZpy-eOz1pQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+
 /* Overall Themes */
 
 * {
@@ -107,10 +126,6 @@ section {
     display: flex;
 }
 
-.box-text p {
-    margin-left: 20px;
-}
-
 .title-box {
     width: 45px;
     margin: 20px;
@@ -123,33 +138,59 @@ section {
 #fonts .box-item {
     height: 50px;
     width: 675px;
-    margin: 8px 20px;
+    margin: auto auto;
     display: flex;
     align-items: center;
+
 }
 
 #fonts .system-group {
     height: 198px;
 }
 
-/*
-.font-block {
-    display: flex;
-}
-*/
 
+.font-block {
+    display: grid;
+    max-width: 675px;
+    margin-left: 11px;
+}
 
 #fonts figcaption {
     font-size: 16px;
-    display: inline-block;
-
+    display: flex;
 }
 
 #fonts .system-group p {
     font-size: 30px;
     margin-left: 30px;
-    display: inline-block;
+    display: flex;
 }
+
+.font1-style1 {
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.font1-style2 {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.font1-style3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.font2-style1 {
+    font-family: 'Changa';
+    font-weight: 400;
+}
+
+.font2-style2 {
+    font-family: 'Changa';
+    font-weight: 600;
+}
+
 
 
 
