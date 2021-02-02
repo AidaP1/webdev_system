@@ -62,12 +62,11 @@ main {
 /* Sections */
 
 section {
-    border: 1px solid black;
     margin: 8px;
 }
 
 .box-text {
-    display: flex;
+    display: block;
     align-items: center;
     margin: 4px 10px;
 }
@@ -75,6 +74,9 @@ section {
 
 .color-group {
     display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    max-width: 700px;
 }
 
 .box-text p {
@@ -83,6 +85,7 @@ section {
 
 .title-box {
     height: 250px;
+    width: 45px;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -96,14 +99,30 @@ section {
     align-items: center;
 } 
 
-.color1 {
-    background-color: hsl(210 50% 70%);
+.color1-shade1 {
+    background-color: hsl(90 50% 75%);
 }
 
-.color2 {
-    background-color: hsl(120 50% 75%);
+.color1-shade2 {
+    background-color: hsl(120 50% 70%);
 }
 
-.color3 {
-    background-color: hsl(180 50% 70%);
+.color1-shade3 {
+    background-color: hsl(150 50% 70%);
+}
+
+.color2-shade1 {
+    background-color: hsl(210 50% 75%);
+}
+
+.color2-shade2 {
+    background-color: hsl(210 30% 70%);
+}
+
+.color2-shade3 {
+    background-color: hsl(210 20% 90%);
+}
+
+.color3-shade1 {
+    background-color: ivory;
 }
