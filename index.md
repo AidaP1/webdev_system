@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
     <head>
         <title>Web Design System</title>
         <link href='resources/css/style.css' rel="stylesheet" type="text/css" />
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
     </head>
     <body>
         <header>
@@ -131,6 +133,55 @@
                     </figure>
                 </div>
             </section>
+            <section id="elements">
+                <div class="box-text">
+                    <h2>Element Styles</h2>
+                    <p>Element styles should be consistent throughout.</p>
+                </div>
+                <div class="system-group">
+                    <div class="title-box">
+                        <h3>Heading 1</h3>
+                    </div>
+                    <figure class="box-item">
+                        <figcaption>
+                            font-family: Changa<br>
+                            font-weight: 600<br>
+                            font-size: 35px
+                        </figcaption>
+                        <p class="h1">We're moving closer to the summit</h1>
+                    </figure>
+                </div>  
+                <div class="system-group">
+                    <div class="title-box">
+                        <h3>Paragraph</h3>
+                    </div>
+                    <figure class="box-item">
+                        <figcaption>
+                            font-family: Poppins<br>
+                            font-weight: 300<br>
+                            font-size: 15px
+                        </figcaption>
+                        <p class="p">We're moving closer to the summit</h1>
+                    </figure>
+                </div>   
+                <div class="system-group">
+                    <div class="title-box">
+                        <h3>Quote</h3>
+                    </div>
+                    <figure class="box-item">
+                        <figcaption>
+                            font-family: Poppins<br>
+                            font-weight: 200<br>
+                            font-size: 25px
+                        </figcaption>
+                        <p class="quote">We're moving closer to the summit</h1>
+                    </figure>
+                </div>     
+            </section>
         </main>
+        <br>
+        <footer>
+            <p>Designed by Aidan Pilgrim 2021</p>
+        </footer>
     </body>
 </html>

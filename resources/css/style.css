@@ -107,6 +107,7 @@ main {
     margin-right: auto;
     max-width: 800px;
     font-size: 30px;
+    padding-bottom: 3em;
 }
 
 
@@ -249,3 +250,59 @@ section {
 .color3-shade1 {
     background-color: hsl(60 100% 97.06%);
 }
+
+/* Element Styles */
+
+#elements figcaption {
+    font-size: 16px;
+    display: grid;
+    align-content: center;
+    margin-left: 1em;
+    min-width: 160px;
+}
+
+#elements .box-item {
+    height: 50px;
+    width: 675px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    display: flex;
+}
+
+#elements p {
+    display: grid;
+    align-content: center;
+    margin-left: 25px;
+}
+
+#elements .h1 {
+    font-family: 'Changa';
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+#elements .p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#elements .quote {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 25px;
+}
+
+
+/* Footer */
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%
+ }
+
+ footer p {
+     float: right
+ }
