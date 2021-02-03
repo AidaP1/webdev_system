@@ -274,6 +274,7 @@ section {
     display: grid;
     align-content: center;
     margin-left: 25px;
+    line-height: 1;
 }
 
 #elements .h1 {
